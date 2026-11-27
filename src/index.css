@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --bg: #18191b;
+  --surface: #222427;
+  --ink: #eff0f1;
+  --muted: #9c9ea3;
+  --accent: #ff4a1f;
+  --accent-soft: #ff9b80;
+  --accent-ink: #18191b;
+  --paper: #eff0f1;
+
+  --step-small: 0.8125rem;
+  --step-body: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
+  --step-lead: clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem);
+  --step-head: clamp(2rem, 1.3rem + 3.2vw, 4rem);
+  --step-display: clamp(4rem, 12.5vw, 11.875rem);
+
+  --margin: clamp(20px, 3.6vw, 52px);
+  --gap-section: clamp(96px, 12vw, 200px);
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Switzer', 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  font-size: var(--step-body);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 0.98;
+  text-wrap: balance;
+  margin: 0;
+}
+
+p { text-wrap: pretty; }
+
+a { color: inherit; text-decoration: none; }
+button { font: inherit; cursor: pointer; }
+
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+::selection { background: var(--accent); color: var(--accent-ink); }
+
+.prose-copy {
+  max-width: 68ch;
+  font-size: var(--step-body);
+  line-height: 1.7;
+}
+.prose-copy h2 { font-size: var(--step-head); margin: 1.6em 0 0.5em; }
+.prose-copy h3 { font-size: var(--step-lead); line-height: 1.2; margin: 1.4em 0 0.4em; }
+.prose-copy p { margin: 0 0 1.3em; }
+.prose-copy blockquote {
+  margin: 1.8em 0;
+  padding: 0.2em 0 0.2em 1.2em;
+  border-left: 6px solid var(--accent);
+  font-size: var(--step-lead);
+  line-height: 1.4;
+}
+.prose-copy img { max-width: 100%; height: auto; }
+.prose-copy ul, .prose-copy ol { padding-left: 1.4em; margin: 0 0 1.3em; }
+.prose-copy a { text-decoration: underline; text-underline-offset: 3px; }
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
