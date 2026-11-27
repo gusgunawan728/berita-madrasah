@@ -1,8 +1,8 @@
-# Portal Berita Madrasah
+# Madrasah Digital — Portal Informasi & Digitalisasi Madrasah
 
-Portal berita madrasah berbasis **React + Vite + Tailwind CSS + Supabase**. Sie static SPA (JAMstack): hasil build berupa folder `dist/` yang cukup diunggah ke `public_html` di cPanel. Sisi publik menampilkan berita, kategori, pencarian, agenda, galeri, dan pembagian tautan. Sisi CMS memungkinkan guru/siswa menulis draft serta admin meninjau, menolak, dan menerbitkan berita.
+Portal informasi madrasah berbasis **React + Vite + Tailwind CSS + Supabase**, dengan fokus pada kabar kegiatan dan perkembangan digitalisasi madrasah. Ini static SPA (JAMstack): hasil build berupa folder `dist/` yang cukup diunggah ke `public_html` di cPanel. Sisi publik menampilkan berita, kategori, pencarian, agenda, galeri, dan pembagian tautan. Sisi CMS memungkinkan guru/siswa menulis draft serta admin meninjau, menolak, dan menerbitkan berita.
 
-> **Status saat ini:** aplikasi berjalan dalam **mode demo** bila `.env` belum diisi. Semua berita, agenda, galeri, dan akun adalah data contoh "Madrasah Al-Hikmah". Ganti dengan data madrasah sebelum publish.
+> **Status saat ini:** aplikasi berjalan dalam **mode demo** bila `.env` belum diisi. Semua berita, agenda, galeri, dan akun adalah data contoh "Madrasah Digital". Ganti dengan data madrasah sebelum publish.
 
 ## 1. Menjalankan secara lokal
 
@@ -59,9 +59,9 @@ Jika salah satu variabel `.env` kosong, masih berisi nilai contoh `xyzcompany`, 
 
 | Peran | Email | Kata sandi |
 | --- | --- | --- |
-| Admin | `admin@alhikmah.sch.id` | `demo1234` |
-| Guru | `guru@alhikmah.sch.id` | `demo1234` |
-| Siswa | `siswa@alhikmah.sch.id` | `demo1234` |
+| Admin | `admin@madrasahdigital.sch.id` | `demo1234` |
+| Guru | `guru@madrasahdigital.sch.id` | `demo1234` |
+| Siswa | `siswa@madrasahdigital.sch.id` | `demo1234` |
 
 Banner demo di bagian atas situs hilang dengan sendirinya setelah `.env` berisi kredensial yang valid dan aplikasi di-build ulang.
 
@@ -93,7 +93,7 @@ React Router memakai path absolut (`base: '/'`), cocok untuk domain/root `public
 
 ### Kredit foto contoh
 
-Foto-foto contoh berasal dari Wikimedia Commons / Openverse dan **bukan** foto Madrasah Al-Hikmah. Kredit ringkas tampil di footer situs; rincian judul, pembuat, lisensi, dan tautan sumber ada di `assets/credits.json`:
+Foto-foto contoh berasal dari Wikimedia Commons / Openverse dan **bukan** foto Madrasah Digital. Kredit ringkas tampil di footer situs; rincian judul, pembuat, lisensi, dan tautan sumber ada di `assets/credits.json`:
 
 - "Kegiatan Rangking 1 di MTs Negeri Tungkob" · Rachmat.Wahidi · CC BY-SA 3.0
 - "Art made out of recycling and used materials" · USAID Indonesia · public domain

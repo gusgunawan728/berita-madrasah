@@ -33,10 +33,10 @@ export default function SidebarAdmin({ pendingCount = 0, open = false, onClose }
   return (
     <aside className={`admin-sidebar${open ? ' open' : ''}`} aria-label="Navigasi CMS">
       <div className="admin-brand">
-        <div className="admin-mark" aria-hidden="true">AL</div>
+        <div className="admin-mark" aria-hidden="true">MD</div>
         <div>
-          <strong>Portal Madrasah</strong>
-          <span>CMS berita & informasi</span>
+          <strong>Madrasah Digital</strong>
+          <span>CMS informasi & digitalisasi</span>
         </div>
       </div>
 

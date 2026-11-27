@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async'
 
 export default function SEOHead({ title, description, image, type = 'article' }) {
-  const fullTitle = title ? `${title} · Portal Berita Madrasah` : 'Portal Berita & Informasi Madrasah'
+  const fullTitle = title ? `${title} · Madrasah Digital` : 'Madrasah Digital — Portal Informasi & Digitalisasi'
   return (
     <Helmet>
       <title>{fullTitle}</title>

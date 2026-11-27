@@ -11,11 +11,11 @@ const credits = [
 ]
 
 export default function Footer({ settings }) {
-  const name = settings?.madrasah_name || 'Madrasah Al-Hikmah'
+  const name = settings?.madrasah_name || 'Madrasah Digital'
   return (
     <footer className="site-footer">
       <div className="axis">
-        <div className="footer-name">{name.split(' ')[0]}</div>
+        <div className="footer-name">{name}</div>
         <div className="footer-row">
           <div>
             <p style={{ margin: '0 0 8px' }}>{settings?.address || 'Alamat madrasah'}</p>

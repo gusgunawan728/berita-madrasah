@@ -16,18 +16,18 @@ export const demoAuthors = [
 ]
 
 export const demoUsers = [
-  { id: 'u-admin', email: 'admin@alhikmah.sch.id', password: 'demo1234', role: 'admin', full_name: 'Nur Aisyah' },
-  { id: 'u-writer-1', email: 'guru@alhikmah.sch.id', password: 'demo1234', role: 'writer', full_name: 'Rizky Ramadhan' },
-  { id: 'u-writer-2', email: 'siswa@alhikmah.sch.id', password: 'demo1234', role: 'writer', full_name: 'Fatimah Azzahra' },
+  { id: 'u-admin', email: 'admin@madrasahdigital.sch.id', password: 'demo1234', role: 'admin', full_name: 'Nur Aisyah' },
+  { id: 'u-writer-1', email: 'guru@madrasahdigital.sch.id', password: 'demo1234', role: 'writer', full_name: 'Rizky Ramadhan' },
+  { id: 'u-writer-2', email: 'siswa@madrasahdigital.sch.id', password: 'demo1234', role: 'writer', full_name: 'Fatimah Azzahra' },
 ]
 
 export const demoPosts = [
   {
     id: 'p-1',
-    title: 'Siswa Al-Hikmah Raih Juara OSN Bidang Matematika',
+    title: 'Siswa Madrasah Digital Raih Juara OSN Matematika',
     slug: 'juara-osn-matematika-2026',
-    excerpt: 'Dari 128 peserta tingkat kota, dua siswa Al-Hikmah berhasil membawa pulang medali emas dan perunggu.',
-    content: `<p>Kabar baik datang dari arena Olimpiade Sains Nasional tingkat kota. Dua siswa Madrasah Al-Hikmah, <strong>Ahmad Fauzan</strong> dan <strong>Salsabila Putri</strong>, berhasil meraih medali emas dan perunggu untuk bidang Matematika setelah melewati tiga babak penyisihan.</p>
+    excerpt: 'Dari 128 peserta tingkat kota, dua siswa Madrasah Digital berhasil membawa pulang medali emas dan perunggu.',
+    content: `<p>Kabar baik datang dari arena Olimpiade Sains Nasional tingkat kota. Dua siswa Madrasah Digital, <strong>Ahmad Fauzan</strong> dan <strong>Salsabila Putri</strong>, berhasil meraih medali emas dan perunggu untuk bidang Matematika setelah melewati tiga babak penyisihan.</p>
       <p>Keduanya telah menjalani persiapan intensif selama empat bulan bersama pembina ekstrakurikuler sains. Latihan harian mencakup penyelesaian soal tahun sebelumnya, diskusi kelompok, dan simulasi ujian setiap Sabtu pagi.</p>
       <blockquote>“Kunci utamanya bukan mengerjakan banyak soal, tetapi memahami pola pikir di balik setiap soal,” kata Fauzan usai pengumuman hasil.</blockquote>
       <p>Pencapaian ini menjadi syarat untuk mengikuti seleksi tingkat provinsi yang akan diselenggarakan pada bulan Desember. Selamat kepada kedua siswa, dan terima kasih kepada seluruh guru yang mendampingi.</p>`,
@@ -43,12 +43,12 @@ export const demoPosts = [
   },
   {
     id: 'p-2',
-    title: 'Papan Pengumuman Digital Mulai Dipakai di Madrasah',
+    title: 'Madrasah Digital Pasang Papan Pengumuman Digital',
     slug: 'papan-pengumuman-digital',
     excerpt: 'Kini jadwal pelajaran, agenda, dan pengumuman bisa dilihat warga madrasah dalam satu layar di koridor utama.',
-    content: `<p>Mulai Senin lalu, koridor utama Madrasah Al-Hikmah memiliki papan pengumuman digital. Layar tersebut menampilkan jadwal pelajaran harian, agenda mendatang, dan pengumuman resmi dari Humas.</p>
-      <p>Papan ini menggantikan sebagian pengumuman cetak yang sebelumnya harus dicetak ulang setiap hari. Operator madrasah dapat memperbarui isi layar dari dashboard CMS, sementara siswa tetap bisa membaca versi web di portal berita.</p>
-      <p>Penggunaan papan digital merupakan bagian dari program madrasah ramah lingkungan. Kertas yang sebelumnya dipakai untuk pengumuman harian kini bisa ditekan penggunaannya hingga ratusan lembar per bulan.</p>`,
+    content: `<p>Mulai Senin lalu, koridor utama Madrasah Digital memiliki papan pengumuman digital. Layar tersebut menampilkan jadwal pelajaran harian, agenda mendatang, dan pengumuman resmi dari Humas.</p>
+      <p>Papan ini menggantikan sebagian pengumuman cetak yang sebelumnya harus dicetak ulang setiap hari. Operator madrasah dapat memperbarui isi layar dari dashboard CMS Madrasah Digital, sementara siswa tetap bisa membaca versi web di portal berita.</p>
+      <p>Penggunaan papan digital merupakan bagian dari program digitalisasi madrasah sekaligus kegiatan ramah lingkungan. Kertas yang sebelumnya dipakai untuk pengumuman harian kini bisa ditekan penggunaannya hingga ratusan lembar per bulan.</p>`,
     thumbnail_url: img('decentralized-basic-education-in-indonesia.jpg'),
     category_id: 'c-kegiatan',
     author_id: 'u-admin',
@@ -63,7 +63,7 @@ export const demoPosts = [
     id: 'p-3',
     title: 'Jadwal Ujian Tengah Semester Ganjil 2026/2027',
     slug: 'jadwal-uts-ganjil-2026-2027',
-    excerpt: 'Ujian berlangsung 8–12 Desember. Siswa diminta mengecek jadwal per mapel melalui portal madrasah.',
+    excerpt: 'Ujian berlangsung 8–12 Desember. Siswa diminta mengecek jadwal per mapel melalui portal Madrasah Digital.',
     content: `<p>Dengan hormat, diinformasikan bahwa Ujian Tengah Semester Ganjil Tahun Ajaran 2026/2027 akan diselenggarakan pada <strong>8–12 Desember 2026</strong>. Ujian dilaksanakan secara tatap muka di ruang kelas masing-masing.</p>
       <p>Jadwal lengkap per mata pelajaran dapat dilihat pada halaman agenda portal ini dan papan pengumuman di koridor. Siswa diwajibkan hadir 15 menit sebelum waktu ujian dan membawa alat tulis serta penggaris.</p>
       <p>Bagi siswa yang berhalangan, surat keterangan dari orang tua wajib diserahkan kepada wali kelas paling lambat sehari sebelum ujian berlangsung.</p>`,
@@ -100,8 +100,8 @@ export const demoPosts = [
     id: 'p-5',
     title: 'Ekstrakurikuler Jurnalistik Melepaskan 12 Penulis Muda',
     slug: 'ekskul-jurnalistik-penulis-muda',
-    excerpt: 'Dua belas siswa menyelesaikan pelatihan menulis berita dan kini menjadi kontributor tetap portal madrasah.',
-    content: `<p>Ekstrakurikuler Jurnalistik Madrasah Al-Hikmah menyelesaikan program pelatihan menulis berita selama delapan pertemuan. Dua belas siswa yang mengikuti program kini menjadi kontributor tetap portal berita madrasah.</p>
+    excerpt: 'Dua belas siswa menyelesaikan pelatihan menulis berita dan kini menjadi kontributor tetap portal Madrasah Digital.',
+    content: `<p>Ekstrakurikuler Jurnalistik Madrasah Digital menyelesaikan program pelatihan menulis berita selama delapan pertemuan. Dua belas siswa yang mengikuti program kini menjadi kontributor tetap portal berita Madrasah Digital.</p>
       <p>Materi pelatihan meliputi teknik wawancara, struktur berita piramida terbalik, penulisan judul, dan etika publikasi. Setiap peserta menghasilkan satu tulisan yang dieditori bersama pembina sebelum diunggah.</p>
       <p>Ke depan, ekskul ini akan menerbitkan rubrik opini siswa setiap dua minggu sekali dan membuka pendaftaran anggota baru setiap awal semester.</p>`,
     thumbnail_url: img('children-working-together-at-school-4321352114.jpg'),
@@ -119,7 +119,7 @@ export const demoPosts = [
     title: 'Karya Daur Ulang Siswa Menang Lomba Kreativitas',
     slug: 'karya-daur-ulang-lomba-kreativitas',
     excerpt: 'Tim siswa mengubah barang bekas menjadi karya seni dan meraih juara kedua di festival sekolah se-kota.',
-    content: `<p>Lima siswa Madrasah Al-Hikmah meraih juara kedua dalam Festival Kreativitas Sekolah se-kota melalui karya seni berbahan barang daur ulang. Karya mereka berupa instalasi mini dari kertas bekas, botol plastik, dan potongan kayu.</p>
+    content: `<p>Lima siswa Madrasah Digital meraih juara kedua dalam Festival Kreativitas Sekolah se-kota melalui karya seni berbahan barang daur ulang. Karya mereka berupa instalasi mini dari kertas bekas, botol plastik, dan potongan kayu.</p>
       <p>Proses pengerjaan memakan waktu tiga minggu. Siswa mengumpulkan material bekas dari rumah dan lingkungan sekolah, lalu menyusunnya menjadi komposisi yang menggambarkan kebersihan lingkungan.</p>
       <p>Prestasi ini sekaligus mendukung program madrasah ramah lingkungan yang diluncurkan tahun ajaran ini.</p>`,
     thumbnail_url: img('art-made-out-of-recycling-and-used.jpg'),
@@ -137,7 +137,7 @@ export const demoPosts = [
     title: 'Upacara Bendera Peringatan Hari Pahlawan',
     slug: 'upacara-hari-pahlawan-2026',
     excerpt: 'Seluruh warga madrasah mengikuti upacara dengan tema kepahlawanan dalam kehidupan sehari-hari.',
-    content: `<p>Madrasah Al-Hikmah menggelar upacara bendera khusus dalam rangka Peringatan Hari Pahlawan. Upacara dipimpin oleh Kepala Madrasah dan diikuti seluruh siswa, guru, serta tenaga kependidikan.</p>
+    content: `<p>Madrasah Digital menggelar upacara bendera khusus dalam rangka Peringatan Hari Pahlawan. Upacara dipimpin oleh Kepala Madrasah dan diikuti seluruh siswa, guru, serta tenaga kependidikan.</p>
       <p>Amanat pembina upacara mengajak siswa mengartikan kepahlawanan lewat hal sederhana: disiplin belajar, membantu teman, dan menjaga kebersihan lingkungan sekolah.</p>
       <p>Usai upacara, siswa kelas VIII melakukan ziarah ke taman makam pahlawan setempat bersama guru Pembina Pramuka.</p>`,
     thumbnail_url: img('upacara-bendera-flag-ceremony-at-smp-kartika.jpg'),
@@ -155,8 +155,8 @@ export const demoPosts = [
     title: 'Pendaftaran PPDB 2027/2028 Dibuka 15 Januari',
     slug: 'ppdb-2027-2028',
     excerpt: 'Kuota penerimaan 120 siswa. Pendaftaran online dan verifikasi berkas dilakukan dalam dua tahap.',
-    content: `<p>Penerimaan Peserta Didik Baru Madrasah Al-Hikmah Tahun Ajaran 2027/2028 dibuka mulai <strong>15 Januari 2027</strong>. Kuota yang tersedia sebanyak 120 siswa untuk kelas VII.</p>
-      <p>Pendaftaran dilakukan secara online melalui tautan PPDB di halaman kontak portal ini. Calon siswa mengunggak Kartu Keluarga, akta kelahiran, dan rapor terakhir, lalu mengikuti verifikasi berkas di madrasah.</p>
+    content: `<p>Penerimaan Peserta Didik Baru Madrasah Digital Tahun Ajaran 2027/2028 dibuka mulai <strong>15 Januari 2027</strong>. Kuota yang tersedia sebanyak 120 siswa untuk kelas VII.</p>
+      <p>Pendaftaran dilakukan secara online melalui portal Madrasah Digital. Calon siswa mengunggah Kartu Keluarga, akta kelahiran, dan rapor terakhir, lalu mengikuti verifikasi berkas di madrasah.</p>
       <p>Informasi lengkap mengenai jadwal dan persyaratan dapat dihubungi melalui kontak resmi madrasah.</p>`,
     thumbnail_url: img('flag-ceremony-at-school-in-indonesia.jpg'),
     category_id: 'c-pengumuman',
@@ -211,6 +211,7 @@ export const demoAgendas = [
   { id: 'a-3', title: 'Rapat Dewan Guru Bulanan', event_date: '2026-12-05', location: 'Ruang rapat', description: 'Evaluasi kegiatan bulan November dan persiapan ujian.' },
   { id: 'a-4', title: 'Pendaftaran PPDB 2027/2028', event_date: '2027-01-15', location: 'Online', description: 'Pendaftaran dibuka melalui tautan resmi PPDB madrasah.' },
   { id: 'a-5', title: 'Libur Idul Fitri', event_date: '2027-03-09', location: 'Seluruh madrasah', description: 'Madrasah libur dan dilanjutkan kembali setelah cuti bersama.' },
+  { id: 'a-6', title: 'Pelatihan Literasi Digital untuk Guru', event_date: '2026-12-12', location: 'Laboratorium komputer', description: 'Pengenalan CMS, keamanan akun, dan pengelolaan konten portal Madrasah Digital.' },
 ]
 
 export const demoGallery = [
@@ -230,15 +231,15 @@ export const demoGallery = [
 
 export const demoSettings = {
   id: 1,
-  madrasah_name: 'Madrasah Al-Hikmah',
-  tagline: 'Belajar, beramal, dan berkarya.',
+  madrasah_name: 'Madrasah Digital',
+  tagline: 'Informasi madrasah, langkah digital.',
   welcome_title: 'Sambutan Kepala Madrasah',
-  welcome_message: 'Assalamu’alaikum warahmatullahi wabarakatuh. Selamat datang di portal informasi Madrasah Al-Hikmah. Di sini keluarga madrasah dapat mengikuti kegiatan, prestasi, dan pengumuman terkini. Semua tulisan disusun oleh guru dan siswa kami sendiri.',
+  welcome_message: 'Assalamu’alaikum warahmatullahi wabarakatuh. Selamat datang di portal informasi Madrasah Digital. Di sini keluarga madrasah dapat mengikuti kegiatan, prestasi, pengumuman, dan perkembangan digitalisasi madrasah. Semua tulisan disusun oleh guru dan siswa kami, lalu ditinjau sebelum terbit.',
   headmaster_name: 'H. Abdurrahman, M.Pd.',
   address: 'Jl. Cendekia No. 12, Kelurahan Sukamaju, Kota Bandung',
-  email: 'info@alhikmah.sch.id',
+  email: 'info@madrasahdigital.sch.id',
   phone: '(022) 1234 5678',
-  ppdb_url: 'https://ppdb.alhikmah.sch.id',
+  ppdb_url: 'https://ppdb.madrasahdigital.sch.id',
   facebook_url: '',
   instagram_url: '',
 }

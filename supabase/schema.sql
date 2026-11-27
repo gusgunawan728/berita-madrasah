@@ -1,5 +1,5 @@
 -- ============================================================================
--- Portal Berita Madrasah — skema lengkap Supabase PostgreSQL
+-- Madrasah Digital — skema lengkap Supabase PostgreSQL untuk portal informasi & digitalisasi
 -- Jalankan seluruh file ini di Supabase Dashboard → SQL Editor → New query → Run
 -- Aman dijalankan ulang (idempotent).
 -- ============================================================================
@@ -67,7 +67,7 @@ create table if not exists public.gallery_photos (
 -- Tambahan: profil madrasah, sambutan kepala madrasah, kontak, link PPDB
 create table if not exists public.site_settings (
   id int primary key default 1 check (id = 1),
-  madrasah_name text not null default 'Madrasah Al-Hikmah',
+  madrasah_name text not null default 'Madrasah Digital',
   tagline text,
   welcome_title text,
   welcome_message text,
@@ -337,15 +337,15 @@ insert into public.site_settings (
   headmaster_name, address, email, phone, ppdb_url, facebook_url, instagram_url
 ) values (
   1,
-  'Madrasah Al-Hikmah',
-  'Belajar, beramal, dan berkarya.',
+  'Madrasah Digital',
+  'Informasi madrasah, langkah digital.',
   'Sambutan Kepala Madrasah',
-  'Assalamu''alaikum warahmatullahi wabarakatuh. Selamat datang di portal informasi Madrasah Al-Hikmah. Di sini keluarga madrasah dapat mengikuti kegiatan, prestasi, dan pengumuman terkini. Semua tulisan disusun oleh guru dan siswa kami sendiri.',
+  'Assalamu''alaikum warahmatullahi wabarakatuh. Selamat datang di portal informasi Madrasah Digital. Di sini keluarga madrasah dapat mengikuti kegiatan, prestasi, pengumuman, dan perkembangan digitalisasi madrasah. Semua tulisan disusun oleh guru dan siswa kami, lalu ditinjau sebelum terbit.',
   'H. Abdurrahman, M.Pd.',
   'Jl. Cendekia No. 12, Kelurahan Sukamaju, Kota Bandung',
-  'info@alhikmah.sch.id',
+  'info@madrasahdigital.sch.id',
   '(022) 1234 5678',
-  'https://ppdb.alhikmah.sch.id',
+  'https://ppdb.madrasahdigital.sch.id',
   '',
   ''
 )
@@ -358,7 +358,7 @@ notify pgrst, 'reload schema';
 -- 1. Buat akun admin di Supabase → Authentication → Add user (email + password),
 --    lalu centang Auto Confirm. Setelah akun dibuat, jalankan:
 --      update public.profiles set role = 'admin'
---      where id = (select id from auth.users where email = 'admin@alhikmah.sch.id');
+--      where id = (select id from auth.users where email = 'admin@madrasahdigital.sch.id');
 -- 2. Akun guru/siswa yang dibuat lewat Add user otomatis menjadi writer.
 -- 3. Authentication → URL Configuration: isi Site URL dan Redirect URLs dengan
 --    domain cPanel, mis. https://berita.madrasah.sch.id/**

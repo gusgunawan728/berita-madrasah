@@ -48,12 +48,12 @@ export default function Login() {
       <SEOHead title="Masuk CMS" type="website" />
       <section className="login-left">
         <div className="admin-brand" style={{ padding: 0 }}>
-          <div className="admin-mark" aria-hidden="true" style={{ background: '#ff4a1f' }}>AL</div>
-          <div><strong style={{ color: '#eff0f1' }}>Portal Madrasah</strong><span>CMS berita & informasi</span></div>
+          <div className="admin-mark" aria-hidden="true" style={{ background: '#ff4a1f' }}>MD</div>
+          <div><strong style={{ color: '#eff0f1' }}>Madrasah Digital</strong><span>CMS informasi & digitalisasi</span></div>
         </div>
         <div>
-          <h1>Ruang redaksi madrasah</h1>
-          <p style={{ marginTop: 24 }}>Guru dan siswa menulis, admin meninjau, lalu berita terbit untuk warga madrasah.</p>
+          <h1>Ruang redaksi Madrasah Digital</h1>
+          <p style={{ marginTop: 24 }}>Guru dan siswa menulis, admin meninjau, lalu kabar kegiatan dan digitalisasi madrasah terbit untuk warga.</p>
         </div>
         <p style={{ color: '#9c9ea3' }}>
           <Link to="/" className="link-underline" style={{ color: '#eff0f1' }}>Kembali ke situs publik</Link>

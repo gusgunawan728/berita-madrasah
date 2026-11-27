@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <div className="board" style={{ marginBottom: 0 }}>
       <nav className="board-top" aria-label="Navigasi utama">
-        <Link to="/" className="board-mark" aria-label="Beranda madrasah">AL</Link>
+        <Link to="/" className="board-mark" aria-label="Beranda Madrasah Digital">MD</Link>
         <div className="board-nav">
           {links.map((link) => (
             <NavLink key={link.to} to={link.to} end={link.end}>{link.label}</NavLink>

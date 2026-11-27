@@ -99,7 +99,7 @@ export default function Home() {
           <img src={photoB} alt="Aktivitas belajar warga madrasah" className="drift" width="1600" height="1067" />
         </div>
         <div className="tile tile-note reveal">
-          <p>Berita, prestasi, dan pengumuman madrasah dalam satu halaman.</p>
+          <p>Berita, prestasi, dan jejak digital madrasah dalam satu halaman.</p>
         </div>
         <div className="tile tile-accent reveal">
           <p>Tulisan guru dan siswa, ditinjau sebelum terbit. <Link to="/kategori" className="link-underline">Lihat kategori</Link></p>
@@ -111,10 +111,10 @@ export default function Home() {
           <div className="intro-copy">
             <h2 id="intro-title" className="reveal">Kabar dari madrasah</h2>
             <p className="intro-statement reveal">
-              Kegiatan, prestasi, dan pengumuman madrasah. Ditulis guru dan siswa, lalu ditinjau.
+              Kabar madrasah dan langkah digitalnya. Ditulis guru dan siswa, lalu ditinjau.
             </p>
             <p className="intro-detail reveal">
-              Pilih kategori untuk mengikuti rubrik tertentu, atau gunakan pencarian untuk menemukan berita lama. Agenda dan galeri kegiatan tersedia di halaman tersendiri.
+              Ikuti rubrik kegiatan, prestasi, dan digitalisasi madrasah. Gunakan pencarian untuk arsip berita; agenda dan galeri tersedia di halaman tersendiri.
             </p>
           </div>
           <div className="intro-photo reveal">
